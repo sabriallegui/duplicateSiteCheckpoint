@@ -2,7 +2,10 @@
 <html>
 
 <head>
+    <title>Docplanner Group</title>
+    <link rel="icon" type="image/x-icon" href="https://www.docplanner.com/favicon/favicon-32x32.png">
     <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
@@ -12,7 +15,14 @@
         <ul>
             <li><a id="active-link" href="#">About us </a></li>
             <li><a href="#">Carreer</a></li>
-            <li><a href="#">Departement</a></li>
+            <li class="dropdown"><a href="#">Departement</a>
+                <div class="dropdown-content">
+                    <a href="#">Customer Success & Sales</a><br>
+                    <a href="#">Marketing & PR</a><br>
+                    <a href="#">IT product and data</a><br>
+                    <a href="#">HR & more</a>
+                </div>
+            </li>
         </ul>
     </header>
     <!-- start of 1st section -->
@@ -380,7 +390,9 @@
         <h3>Sounds interesting? Join us now!
         </h3>
 
-        <a href="#">See all current openings</a>
+        <a href="#" style="display: inline-block; outline: 0; border-radius: 4px; padding: 1.1666666667em 1.5em;
+            background: #3d83df; line-height: 1em; color: #fff; font-weight: 700; letter-spacing: .04em; font-size:
+            .75rem; text-decoration: none!important; text-transform: uppercase;">See all current openings</a>
 
 
     </section>
