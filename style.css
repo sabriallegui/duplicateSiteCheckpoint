@@ -103,6 +103,8 @@ header {
     color: white;
 }
 
+
+
 .h3-padding {
     margin-bottom: 150px;
 }
@@ -165,7 +167,6 @@ header {
 .card1 {
     display: flex;
     justify-content: center;
-    border: 1px solid #000;
     flex-direction: column;
     margin-top: 50px;
 }
@@ -173,12 +174,10 @@ header {
 .card2 {
     display: flex;
     justify-content: center;
-    border: 1px solid #000;
     flex-direction: column;
 }
 
 .card1 div {
-    border: 1px solid #000;
     width: 210px;
     height: 240px;
     border-radius: 10px;
@@ -189,7 +188,6 @@ header {
 }
 
 .card2 div {
-    border: 1px solid #000;
     width: 210px;
     height: 240px;
     border-radius: 10px;
